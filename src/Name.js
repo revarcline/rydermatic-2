@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { generateName } from "./generateName";
+import { Helmet } from "react-helmet";
 
 const Name = () => {
   const [name, setName] = useState(generateName());
@@ -10,9 +11,16 @@ const Name = () => {
   };
 
   return (
-    <a href="#" onClick={handleClickName}>
+    <div>
+      <Helmet>
+        <title>{name}</title>
+      </Helmet>
       <h1>{name}</h1>
-    </a>
+      {name == "Bob Johnson!" ? <h3 className="bob">oh, wait...</h3> : null}
+      <a href="#" onClick={handleClickName}>
+        <h2>new name...</h2>
+      </a>
+    </div>
   );
 };
 

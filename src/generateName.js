@@ -1,6 +1,6 @@
 const names = require("./names.json");
 
-const generateName = () => {
+export const generateName = () => {
   if (Math.floor(Math.random() * 100) == 1) {
     return "Bob Johnson!";
   } else {
@@ -19,5 +19,3 @@ const generateName = () => {
     }
   }
 };
-
-export default generateName;
