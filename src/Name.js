@@ -17,9 +17,21 @@ const Name = () => {
       </Helmet>
       <h1>{name}</h1>
       {name == "Bob Johnson!" ? <h3 className="bob">oh, wait...</h3> : null}
-      <a href="#" onClick={handleClickName}>
-        <h2>new name...</h2>
-      </a>
+      <div className="reload">
+        <a href="#" onClick={handleClickName}>
+          <h2>new name...</h2>
+        </a>
+      </div>
+
+      <div className="credit">
+        <h3>
+          rydermatic by <a href="https://buckar.ooo">alex cline</a> - many
+          thanks to{" "}
+          <a href="https://www.youtube.com/watch?v=RFHlJ2voJHY&feature=youtu.be">
+            mst3k
+          </a>
+        </h3>
+      </div>
     </div>
   );
 };
