@@ -1,6 +1,8 @@
 # Rydermatic 2
 
-based on [MST3K's classic Space Mutiny bit](https://www.youtube.com/watch?v=RFHlJ2voJHY). see it in the wild [here](https://rydermatic.buckar.ooo)
+based on [MST3K's classic Space Mutiny bit](https://www.youtube.com/watch?v=RFHlJ2voJHY). see it in the wild [here](https://rydermatic.buckar.ooo).
+
+If you want to rework the name generator or add more custom name parts, you can edit `src/names.json`.
 
 ## Available Scripts
 
