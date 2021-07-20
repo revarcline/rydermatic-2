@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Rydermatic 2
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+based on [MST3K's classic Space Mutiny bit](https://www.youtube.com/watch?v=RFHlJ2voJHY). see it in the wild [here](https://rydermatic.buckar.ooo)
 
 ## Available Scripts
 
