@@ -9,6 +9,8 @@ body {
   padding: 50px;
   font: 14px "Gafata", system-ui, -apple-system, "Lucida Grande", Helvetica,
     Cantarell, Arial, sans-serif;
+  background: #282828;
+  color: #ebdbb2;
 }
 
 a {
