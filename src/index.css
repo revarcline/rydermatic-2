@@ -1,13 +1,54 @@
+/* imports */
+
+@import url("https://fonts.googleapis.com/css2?family=Gafata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Patua+One&display=swap");
+
+/* content */
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 50px;
+  font: 14px "Gafata", system-ui, -apple-system, "Lucida Grande", Helvetica,
+    Cantarell, Arial, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  color: #00b7ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+h1 {
+  font: 9vw "Patua One";
+  margin: 0px;
+}
+
+h2 {
+  font-size: 3vw;
+  margin: 3px;
+}
+
+h3 {
+  font-size: 2vw;
+  color: grey;
+}
+
+.bob {
+  font-family: "Patua One";
+  margin: -5px;
+  margin-left: 20%;
+}
+
+.reload {
+  position: absolute;
+  float: right;
+  right: 7%;
+}
+
+.credit {
+  position: absolute;
+  bottom: 4%;
+  right: 7%;
+  float: right;
 }
